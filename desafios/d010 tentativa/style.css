@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #76ebaa;
+}
+
+header {
+    height: 160px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #2fac67, #1A5C38);
+    padding-top: 1px;
+    color: white;
+}
+
+header > h1 {
+    font-family: "League Gothic";
+    margin: 15px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.288);
+}
+
+header > aside > p {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.288);
+}
+
+nav {
+    padding: 10px;
+    background-color: #1A5C38;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.198);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: #2aa762;
+    color: #116b39;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 5px 40px 40px 40px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 8px 3px rgb(0 0 0 / 31%);
+}
+
+main strong {
+    color: #1A5C38;
+}
+
+main a {
+    color: #1A5C38;
+    background-color: #94f1be;
+    padding: 2px 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+a.linksexternos::after {
+    content: ' 🔗';
+}
+
+
+#tituloprincipal {
+    font-family: idroid;
+    color: #1A5C38;
+    font-size: 46px;
+}
+
+article > p {
+    text-indent: 1.0em;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #9fe6be, white);
+    font-family: idroid;
+    text-indent: 0.5em;
+    color: #1A5C38;
+}
+
+img {
+    width: 100%;
+}
+
+img.pequena {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+div.video {
+    background-color: #1A5C38;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%
+}
+
+aside {
+    text-indent: 1.0em;
+}
+
+
+aside#aprendermais{
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 15px;
+}
+
+#aprendermais > h3 {
+    background-color: #3ead70;
+    border-radius: 5px 5px 0px 0px;
+    text-indent: 0.5em;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#aprendermais > article {
+    background-color: #94f1be;
+    padding-top: 1px;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 8px;
+    padding: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+

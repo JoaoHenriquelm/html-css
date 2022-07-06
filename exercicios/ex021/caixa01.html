@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 { /* Box-level */
+            background-color: #00e88fff;
+
+            height: 37px;
+            width: 417px;
+
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+
+            /*padding: 20px;*/
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+            border-radius: 5px;
+
+            /*border: 10px solid aqua 5px;*/
+
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 30px;
+            margin-left: auto;
+
+            /*margin: 20px auto 30px auto;*/
+
+            outline-width: 5px;
+            outline-style: groove;
+            color: black;
+
+            /*outline: 5px dashed black*/
+        }
+
+        a { /* Inline-level
+             */
+            border-width: 5px;
+            border-style: groove;
+            border-color: rgb(87, 87, 240);
+            border-radius: 10px;
+
+            padding-top: 4px;
+            padding-right: 3px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+
+        #caixa2 {
+            height: 20px;
+            width: 110px;
+
+            border-width: 8px;
+            border-style: solid;
+            border-color: rgb(219, 81, 115);
+            border-radius: 5px;
+
+            margin: auto;
+
+            outline-width: 5px;
+            outline-style: solid;
+            outline-color: black;
+
+        }
+
+        #caixa2 > a {
+            text-decoration: none;
+            color: blueviolet;
+            border-width: 0px;
+        }
+
+        
+    </style>
+    <title>Modelo de Caixas</title>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona.</p>
+
+     <div id="caixa2"><a href="caixa02.html">Ir para caixa 2</a></div>
+</body>
+</html>
