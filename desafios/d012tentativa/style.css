@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -17,8 +18,9 @@ header {
 }
 
 h1 {
-    font-size: 4em;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 10vw;
+    font-variant: small-caps;
+    font-family: 'Passion One', cursive;
 }
 
 span.contraste {
@@ -35,23 +37,21 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 2em;
+    font-size: 3.5vw;
     font-family: 'Sriracha', cursive;
 }
 
-
-p.com_imagem {
+section.com_imagem > p {
     background-color: rgba(0, 0, 0, 0.247);
-    width: 400px;
+    padding: 5px;
+    display: inline-block;
 }
 
-
-#girassol {
-    background-image: url("pacote-d012/imagens/background001.jpg");
+section.com_imagem {
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,13 +60,17 @@ p.com_imagem {
     color: white;
 }
 
-#livro {
-    background-image: url("pacote-d012/imagens/background002.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+section#girassol {
+    background-image: url("pacote-d012/imagens/background001.jpg");
+}
 
-    color: white;
+section#livro {
+    background-image: url("pacote-d012/imagens/background002.jpg");
+}
+
+section#tapioca {
+    background-image: url("pacote-d012/imagens/Tapioca.jpg");
+    background-position: center center;
 }
 
 footer {
@@ -76,17 +80,7 @@ footer {
     color: white;
 }
 
-@media (max-width: 400px) {
-    p {
-        font-size: 16px;
-    }
 
-    p.com_imagem {
-        background-color: rgba(0, 0, 0, 0.247);
-        width: 270px;
-        
-    }
-}
 
 
 
