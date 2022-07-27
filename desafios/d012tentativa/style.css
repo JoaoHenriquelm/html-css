@@ -23,13 +23,10 @@ h1 {
     font-family: 'Passion One', cursive;
 }
 
-span.contraste {
-    color: rgb(223, 221, 221);
-}
-
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 a:hover {
