@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.atencao {
+    background-color: #6b6b6b;
+    color: white;
+}
+
+.notas {
+    text-align: center;
+}
+
+.mediageral {
+    text-align: left;
+}
