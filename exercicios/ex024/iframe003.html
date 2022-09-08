@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+
+        .finalizacao {
+            display: block;
+            margin: auto;
+        }
+
+    </style>
+    <title>Uso de iframes</title>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis doloribus excepturi voluptatibus hic ut, veritatis cumque explicabo in earum ipsum aliquid reprehenderit odio esse, culpa non quidem exercitationem maxime? Cum.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus amet illum architecto deserunt optio? Necessitatibus eius, est saepe temporibus quidem sunt consequatur, cupiditate sapiente sint eum, debitis eaque at ad!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus amet illum architecto deserunt optio? Necessitatibus eius, est saepe temporibus quidem sunt consequatur, cupiditate sapiente sint eum, debitis eaque at ad!</p> <img src=' imagens/favicon.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam ipsam aliquam voluptatum expedita autem minima voluptate quam rerum corporis fuga, magnam cupiditate aperiam ipsum voluptates repellendus dolorum praesentium reiciendis?</p>
+
+    <a href="paginas-extras/pagina004.html" target="frame2">Consegui!!!</a>
+
+    <iframe class="finalizacao" src="" frameborder="0" name="frame2"></iframe>
+</body>
+</html>
